@@ -21,7 +21,7 @@ public class CommonAction {
                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     break;
                 default:
-                    Assert.fail("no such browser");
+                    Assert.fail("no such browser or OS");
 
             }
 
