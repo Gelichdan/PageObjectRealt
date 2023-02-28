@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Test Suits">
+    <test verbose="2" preserve-order="true" name="C:\epamdata\PageObjectRealt">
+        <classes>
+            <class name="tests.searchappartments.TestSOUT"></class>
+        </classes>
+    </test>
+</suite>
